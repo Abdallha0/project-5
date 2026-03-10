@@ -10,10 +10,10 @@
 
 <body class="min-h-screen w-screen overflow-x-hidden">
     <!-- =============================== -->
-    <!-- Section 1: navegation section -->
+    <!-- Section 1: navigation section -->
     <!-- =============================== -->
     <header
-        class="w-full py-4 px-14 rounded-md flex items-center justify-between bg-white shadow-lg shadow-[#00000028] fixed top-0 z-50">
+        class="w-full py-4 px-14 flex items-center justify-between bg-white shadow-lg shadow-[#00000028] fixed top-0 z-50">
         <!-- ===== logo ===== -->
         <div class="text-[#2563eb] flex items-center space-x-2">
             <h1 class="font-bold text-3xl">DigitalPro</h1>
@@ -45,88 +45,244 @@
     <!-- Section 2: home section -->
     <!-- =============================== -->
     <section id="home"
-        class="py-24 px-16 relative top-20 w-full bg-gradient-to-br from-blue-50 via-white to-purple-5 flex flex-col md:flex-row justify-between gap-16 items-center">
+        class="felx items-center relative top-20 bg-gradient-to-br from-blue-50 via-white to-purple-50 min-h-screen">
 
-        <!-- content -->
-        <div class="flex md:w-1/2 flex-col gap-7 flex-1 md:max-w-[50%]">
-            <h2 class="text-6xl font-bold">
-                We Create <span class="text-blue-600">Digital <br> Success</span> for Your Brand
-            </h2>
-            <p class="text-gray-600 text-xl leading-relaxed">We provide integrated marketing solutions that help your
-                <br> company grow
-                and
-                increase sales through
-                innovative strategies.
-            </p>
-            <ul class="flex items-center flex-wrap gap-3 justify-between text-gray-600">
-                <li class="flex gap-1 text-nowrap items-center"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" fill="#22C55E" class="size-8">
-                        <path fill-rule="evenodd"
-                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    10+ Years Experience</li>
-                <li class="flex gap-1 text-nowrap items-center"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" fill="#22C55E" class="size-8">
-                        <path fill-rule="evenodd"
-                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    +500 Clients</li>
-                <li class="flex gap-1 text-nowrap items-center"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" fill="#22C55E" class="size-8">
-                        <path fill-rule="evenodd"
-                            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    Professional Team</li>
-            </ul>
-
-            <div class="gap-4 flex flex-wrap">
-                <button
-                    class="py-4 px-10 text-nowrap font-semibold capitalize rounded-xl bg-[#2563eb] hover:bg-blue-700 text-white shadow-lg hover:shadow-xl shadow-[#00000028] transition-all duration-300 active:scale-95">Start
-                    your journey now</button>
-                <button
-                    class="flex items-center font-medium text-nowrap gap-1 justify-center border-2 py-4 px-6 border-gray-300 text-gray-700 hover:border-blue-600 font-md text-xl rounded-xl transition-all duration-300 active:scale-95 hover:text-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                        <path fill-rule="evenodd"
-                            d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                    Watch the vedio</button>
-            </div>
-        </div>
-
-        <!-- image -->
-        <div class="relative w-full md:w-1/2 flex-1 md:max-w-[50%]">
-            <div
-                class="bg-gradient-to-br w-full h-96 from-blue-400 to-purple-400 relative rounded-3xl flex items-center justify-center shadow-2xl shadow-[#00000028]">
-                <div class="size-[80px] rounded-full bg-[#ffffff3b] absolute top-8 right-8"></div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="#ffffff3b" class="size-20">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
-                </svg>
-
-                <div class="size-[120px] rounded-full bg-[#ffffff3b] absolute bottom-8 left-8"></div>
-            </div>
-            <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl">
-                <div class="flex items-center gap-3">
-                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                            class="text-green-600 size-6">
+        <div class="container py-16 px-4 w-full lg:flex justify-between gap-12 items-center block space-y-20 mx-auto h-full">
+            <!-- content -->
+            <div class="flex flex-1 lg:w-1/2 flex-col gap-7 lg:max-w-[50%]">
+                <h2 class="text-6xl font-bold">
+                    We Create <span class="text-blue-600">Digital <br> Success</span> for Your Brand
+                </h2>
+                <p class="text-gray-600 text-xl leading-relaxed">We provide integrated marketing solutions that help
+                    your
+                    <br> company grow
+                    and
+                    increase sales through
+                    innovative strategies.
+                </p>
+                <ul class="flex items-center flex-wrap gap-6 text-gray-600">
+                    <li class="flex gap-1 text-nowrap items-center"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" fill="#22C55E" class="size-8">
                             <path fill-rule="evenodd"
-                                d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z"
+                                d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
                                 clip-rule="evenodd" />
-                            <path
-                                d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
                         </svg>
-                    </div>
-                    <div>
-                        <p class="text-sm text-gray-500">Happy Clients</p>
-                        <p class="text-2xl font-bold text-gray-800">+500</p>
+                        10+ Years Experience</li>
+                    <li class="flex gap-1 text-nowrap items-center"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" fill="#22C55E" class="size-8">
+                            <path fill-rule="evenodd"
+                                d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        +500 Clients</li>
+                    <li class="flex gap-1 text-nowrap items-center"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" fill="#22C55E" class="size-8">
+                            <path fill-rule="evenodd"
+                                d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        Professional Team</li>
+                </ul>
+
+                <div class="gap-4 flex flex-wrap">
+                    <button
+                        class="py-4 px-10 text-nowrap font-semibold capitalize rounded-xl bg-[#2563eb] hover:bg-blue-700 text-white shadow-lg hover:shadow-xl shadow-[#00000028] transition-all duration-300 active:scale-95">Start
+                        your journey now</button>
+                    <button
+                        class="flex items-center font-medium text-nowrap gap-1 justify-center border-2 py-4 px-6 border-gray-300 text-gray-700 hover:border-blue-600 font-md text-xl rounded-xl transition-all duration-300 active:scale-95 hover:text-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd"
+                                d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        Watch the vedio</button>
+                </div>
+            </div>
+
+            <!-- image -->
+            <div class="relative w-full lg:w-1/2 flex-1 lg:max-w-[50%]">
+                <div
+                    class="bg-gradient-to-br w-full h-96 from-blue-400 to-purple-400 relative rounded-3xl flex items-center justify-center shadow-2xl shadow-[#00000028]">
+                    <div class="size-[80px] rounded-full bg-[#ffffff3b] absolute top-8 right-8"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="#ffffff3b" class="size-20">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                    </svg>
+
+                    <div class="size-[120px] rounded-full bg-[#ffffff3b] absolute bottom-8 left-8"></div>
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl">
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="text-green-600 size-6">
+                                <path fill-rule="evenodd"
+                                    d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z"
+                                    clip-rule="evenodd" />
+                                <path
+                                    d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Happy Clients</p>
+                            <p class="text-2xl font-bold text-gray-800">+500</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- Section 3: Services section-->
+    <!-- =============================== -->
+
+    <section id="services" class="min-h-screen w-full relative py-20 top-20 text-center">
+        <!-- title -->
+        <div class="space-y-4">
+            <h2 class="text-4xl font-bold text-gray-800 text-center">Our Integrated Services</h2>
+            <p class="text-gray-600 text-xl max-w-2xl mx-auto relative">We offer a comprehensive range of digital
+                solutions to grow your business.</p>
+            <div class="bg-blue-600 w-24 rounded-full mx-auto h-1"></div>
+        </div>
+
+        <!-- cards container -->
+        <div class="p-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- card 1 -->
+            <div
+                class="border-gray-200 space-y-3 border rounded-2xl p-8 text-start hover:shadow-2xl hover:border-blue-600 transition-all duration-300 group">
+                <!-- card icon -->
+                <div class="pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-16 p-4 text-blue-600 bg-blue-100 hover:bg-blue-600 hover:text-white transition-all duration-300 rounded-xl group-hover:text-white group-hover:bg-blue-600">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                    </svg>
+                </div>
+
+                <!-- card title -->
+                <h2 class="text-2xl font-bold text-gray-900">Search Engine Optimization</h2>
+
+                <!-- cart description -->
+                <p class="text-gray-600 max-w-xs leading-relaxed">We ensure your website appears on the first pages of
+                    search engines
+                    and increases qualified
+                    visitors.</p>
+
+                <!-- card list -->
+                <ul class="space-y-2">
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        Keyword Analysis</li>
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        Content Optimization</li>
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        Link Building</li>
+                </ul>
+            </div>
+
+            <!-- card 2 -->
+            <div
+                class="border-gray-200 space-y-3 border rounded-2xl p-8 text-start hover:shadow-2xl hover:border-purple-600 transition-all duration-300 group">
+                <!-- card icon -->
+                <div class="pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        class="size-16 p-4 text-purple-600 bg-purple-100 hover:bg-purple-600 hover:text-white transition-all duration-300 rounded-xl group-hover:text-white group-hover:bg-purple-600"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                </div>
+
+                <!-- card title -->
+                <h2 class="text-2xl font-bold text-gray-900">Social Media Marketing</h2>
+
+                <!-- cart description -->
+                <p class="text-gray-600 max-w-xs leading-relaxed">We manage your advertising campaigns on Facebook and
+                    Instagram with high professionalism.</p>
+
+                <!-- card list -->
+                <ul class="space-y-2">
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        Precise Targeting</li>
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        Results Analysis</li>
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        Campaign Optimization</li>
+                </ul>
+            </div>
+
+            <!-- card 3 -->
+            <div
+                class="border-gray-200 space-y-3 border rounded-2xl p-8 text-start hover:shadow-2xl hover:border-green-600 transition-all duration-300 group">
+                <!-- card icon -->
+                <div class="pb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor"
+                        class="size-16 p-4 text-green-600 bg-green-100 hover:bg-green-600 hover:text-white transition-all duration-300 rounded-xl group-hover:text-white group-hover:bg-green-600">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                    </svg>
+                </div>
+
+                <!-- card title -->
+                <h2 class="text-2xl font-bold text-gray-900">Website Design & Development
+                </h2>
+
+                <!-- cart description -->
+                <p class="text-gray-600 max-w-xs leading-relaxed">We design professional websites that are compatible
+                    with all devices.
+                </p>
+
+                <!-- card list -->
+                <ul class="space-y-2">
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        Responsive Design
+                    </li>
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        High Speed
+                    </li>
+                    <li class="flex gap-2 items-center text-gray-600"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+                            class="size-4 text-green-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        Easy Management
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
